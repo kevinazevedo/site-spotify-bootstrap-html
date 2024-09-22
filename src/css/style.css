@@ -113,6 +113,38 @@ nav.navbar-transparente {
     padding-left: 80px;
 }
 
+/* ===== Rodapé ===== */
+footer {
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #9c9c9c;
+    font-size: 0.8em;
+    text-transform: uppercase ;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: rgb(62, 255, 149);
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0px 5px;
+}
+
 /* ===== Tipográfia ===== */
 h1 {
     font-weight: 900;
@@ -138,6 +170,11 @@ h3 {
 @media (max-width: 575.98px) {
     .btn-custom {
         margin: 10px;
+        font-size: 1em;
+    }
+
+    footer h4 {
+        padding-top: 25px;
     }
 }
 
@@ -146,12 +183,24 @@ h3 {
     h1 {
         font-size: 3em;
     }
+
+    .btn-custom {
+        margin: 10px 15px;
+    }
+
+    footer h4 {
+        padding-top: 25px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
+    }
+
+    footer img {
+        padding-right: 37px;
     }
 }
 
